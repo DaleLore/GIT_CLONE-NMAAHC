@@ -66,6 +66,8 @@ At: https://dev.to/bowmanjd/create-and-initialize-a-new-github-repository-from-t
 
 I had to generate another one of those personal token things, but this actually worked and I was able to create the repository and push to it. 
 
+But now I can't make a pull request on your repo because my repo is not connected to yours... hmmm.
+
 
 /Users/bleakley/Desktop/GIT_CLONE-NMAAHC
 ≈:≈ git branch
