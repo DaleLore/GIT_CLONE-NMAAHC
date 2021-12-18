@@ -458,3 +458,175 @@ Everything up-to-date
                                                                                                                                                          
 /Users/bleakley/Desktop/GIT_CLONE-NMAAHC
 ≈:≈ 
+
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ git status                                                 
+On branch Blake-local-git-clone-nmaahc
+Your branch is up to date with 'origin/Blake-local-git-clone-nmaahc'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ git add README.txt 
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ git status
+On branch Blake-local-git-clone-nmaahc
+Your branch is up to date with 'origin/Blake-local-git-clone-nmaahc'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   README.txt
+
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ git commit -m talkin' 'bout it 
+error: pathspec 'it' did not match any file(s) known to git
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ git commit -m talking about it
+error: pathspec 'about' did not match any file(s) known to git
+error: pathspec 'it' did not match any file(s) known to git
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ git commit -m "talking about it"
+[Blake-local-git-clone-nmaahc 4c823d0] talking about it
+ 1 file changed, 434 insertions(+)
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ git status
+On branch Blake-local-git-clone-nmaahc
+Your branch is ahead of 'origin/Blake-local-git-clone-nmaahc' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 4.10 KiB | 1.37 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:BleakleyMcD/GIT_CLONE-NMAAHC.git
+   76950b6..4c823d0  Blake-local-git-clone-nmaahc -> Blake-local-git-clone-nmaahc
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ git status                      
+On branch Blake-local-git-clone-nmaahc
+Your branch is up to date with 'origin/Blake-local-git-clone-nmaahc'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ git commit -a talkin about it 2
+fatal: paths 'talkin ...' with -a does not make sense
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ git commit -a "talkin about it 2"
+fatal: paths 'talkin about it 2 ...' with -a does not make sense
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ git commit -am "talkin about it 2"
+[Blake-local-git-clone-nmaahc 19fe01b] talkin about it 2
+ 1 file changed, 2 insertions(+)
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ git status                       
+On branch Blake-local-git-clone-nmaahc
+Your branch is ahead of 'origin/Blake-local-git-clone-nmaahc' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ git push                         
+
+
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 379 bytes | 379.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:BleakleyMcD/GIT_CLONE-NMAAHC.git
+   4c823d0..19fe01b  Blake-local-git-clone-nmaahc -> Blake-local-git-clone-nmaahc
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ 
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ 
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ git remote -v                                                                                         
+DaleLore	https://github.com/DaleLore/GIT_CLONE-NMAAHC.git (fetch)
+DaleLore	https://github.com/DaleLore/GIT_CLONE-NMAAHC.git (push)
+origin	git@github.com:BleakleyMcD/GIT_CLONE-NMAAHC.git (fetch)
+origin	git@github.com:BleakleyMcD/GIT_CLONE-NMAAHC.git (push)
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ git remote remove origin                                                                      
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ git remote add origin git@github.com:BleakleyMcD/GIT_CLONE-NMAAHC-1                               
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ git remote -v                                                      
+DaleLore	https://github.com/DaleLore/GIT_CLONE-NMAAHC.git (fetch)
+DaleLore	https://github.com/DaleLore/GIT_CLONE-NMAAHC.git (push)
+origin	git@github.com:BleakleyMcD/GIT_CLONE-NMAAHC-1 (fetch)
+origin	git@github.com:BleakleyMcD/GIT_CLONE-NMAAHC-1 (push)
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ git status                                                         
+On branch Blake-local-git-clone-nmaahc
+nothing to commit, working tree clean
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ git push                                                        
+fatal: The current branch Blake-local-git-clone-nmaahc has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin Blake-local-git-clone-nmaahc
+
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈     git push --set-upstream origin Blake-local-git-clone-nmaahc
+
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (9/9), 4.60 KiB | 1.15 MiB/s, done.
+Total 9 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+remote: 
+remote: Create a pull request for 'Blake-local-git-clone-nmaahc' on GitHub by visiting:
+remote:      https://github.com/BleakleyMcD/GIT_CLONE-NMAAHC-1/pull/new/Blake-local-git-clone-nmaahc
+remote: 
+To github.com:BleakleyMcD/GIT_CLONE-NMAAHC-1
+ * [new branch]      Blake-local-git-clone-nmaahc -> Blake-local-git-clone-nmaahc
+Branch 'Blake-local-git-clone-nmaahc' set up to track remote branch 'Blake-local-git-clone-nmaahc' from 'origin'.
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ git status                                                     
+On branch Blake-local-git-clone-nmaahc
+Your branch is up to date with 'origin/Blake-local-git-clone-nmaahc'.
+
+nothing to commit, working tree clean
+                                                                                                                                                         
+/Users/bleakley/Desktop/GIT_CLONE-NMAAHC
+≈:≈ 
